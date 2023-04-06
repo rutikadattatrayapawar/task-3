@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Shadows+Into+Light&display=swap');       
+body{
+    background-color: #222;
+    font-family: "Quicksand",sans-serif;
+}
+h1,h2{
+    font-weight: bold;
+}
+h1{
+    font-size: 6em;
+    line-height: 90px;
+}
+.projects-1{
+    background-color: hsla(0,0%,100%,.9);
+    color: #000;
+    border-radius: 16px;
+}
+.hobbies{
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 16px;
+}
+.aboutme{
+    color: white;
+}
+.custom-button{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    width: 60%;
+    filter: grayscale(1);
+}
+.logo2{
+    margin: 20px;
+    width: 100%;
+    filter: grayscale(1);
+}
+.logo:hover,.logo2:hover{
+    filter:  grayscale(0);
+}
+.logo, .logo2 , .logo:hover,.logo2:hover{
+    transition: filter .2s ease-in-out;
+}
+.connected{
+    background-color: rgb(34, 34, 34);
+}
